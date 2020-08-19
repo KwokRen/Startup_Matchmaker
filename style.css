@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&family=Oswald:wght@500&display=swap');
+ 
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+https://raw.git.generalassemb.ly/Kwokito/W01D03-HW/master/startup-matchmaker/starter_code/images/coworking.jpg?token=AAAHE2PSSONYVHOJ2X45AA27IW2SE */
+
+body {
+    background-image: url(./assets/coworking.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
