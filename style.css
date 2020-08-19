@@ -13,6 +13,22 @@ body {
     background-size: cover;
 }
 
+.banner {
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: transparent;
+}
+
+.meet_your_match {
+    height: 300px;
+    width: 450px;
+    background-color: #efe7e6;
+    opacity: 0.8;
+    margin-right: 100px;
+}
+
 .blacktop {
     height: 5px;
     width: 100%;
@@ -29,7 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 60px;
     width: 100vw;
     background-color: black;
     color: white;
@@ -74,7 +90,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 60px;
     background-color: #c6c6c6;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
 
+.strikethrough {
+    color: #a0a0a0;
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline solid yellow;
+}
+
+.bottom {
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.container {
+    border-right: 1px solid black;
+    height: 100%;
+    width: 33.33%;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
 }
