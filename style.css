@@ -13,18 +13,59 @@ body {
     background-size: cover;
 }
 
+.blacktop {
+    height: 5px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.graytop {
+    height: 5px;
+    width: 100%;
+    background-color: #35393f;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 70px;
     width: 100vw;
     background-color: black;
     color: white;
 }
 
-.nav-links {
+.navbar > h1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    font-size: 30px;
+    color: yellow;
+    font-family: Merriweather;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
+    width: 40%;
+    height: 100%;
+    margin-right: 50px;
+    font-size: 18px;
+    font-family: Lato;
+}
+
+.bold {
+    font-weight: bolder;
+    font-family: Merriweather;
+    font-size: 22px;
+}
+
+.yellowbar {
+    background-color: yellow;
+    height: 5px;
+    width: 100%;
 }
